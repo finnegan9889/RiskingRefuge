@@ -29,6 +29,7 @@
     {"id":{"name":"spr_player_idle_down_strip04","path":"sprites/spr_player_idle_down_strip04/spr_player_idle_down_strip04.yy",},"order":0,},
     {"id":{"name":"obj_boundary","path":"objects/obj_boundary/obj_boundary.yy",},"order":0,},
     {"id":{"name":"font_textbox","path":"fonts/font_textbox/font_textbox.yy",},"order":0,},
+    {"id":{"name":"EntryHover","path":"sprites/EntryHover/EntryHover.yy",},"order":14,},
     {"id":{"name":"spr_gui_textbox","path":"sprites/spr_gui_textbox/spr_gui_textbox.yy",},"order":0,},
     {"id":{"name":"TileSet1","path":"tilesets/TileSet1/TileSet1.yy",},"order":1,},
     {"id":{"name":"lightDirt_1","path":"sprites/lightDirt_1/lightDirt_1.yy",},"order":6,},
