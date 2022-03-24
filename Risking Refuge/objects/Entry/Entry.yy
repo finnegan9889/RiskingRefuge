@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "EntryMarker",
-    "path": "sprites/EntryMarker/EntryMarker.yy",
+    "name": "largeTent",
+    "path": "sprites/largeTent/largeTent.yy",
   },
   "solid": false,
   "visible": true,

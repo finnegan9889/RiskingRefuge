@@ -36,6 +36,7 @@
     {"id":{"name":"obj_Player_1","path":"objects/obj_Player_1/obj_Player_1.yy",},"order":2,},
     {"id":{"name":"tentIcon","path":"sprites/tentIcon/tentIcon.yy",},"order":0,},
     {"id":{"name":"foodIcon","path":"sprites/foodIcon/foodIcon.yy",},"order":3,},
+    {"id":{"name":"largeTent","path":"sprites/largeTent/largeTent.yy",},"order":5,},
     {"id":{"name":"medIcon","path":"sprites/medIcon/medIcon.yy",},"order":2,},
     {"id":{"name":"_32x32_DEMO_1","path":"sprites/_32x32_DEMO_1/_32x32_DEMO_1.yy",},"order":4,},
     {"id":{"name":"ap_Room1","path":"rooms/ap_Room1/ap_Room1.yy",},"order":1,},
