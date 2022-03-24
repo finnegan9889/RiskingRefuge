@@ -2,7 +2,7 @@
 event_inherited();
 
 // compare prev and curr x positions to determine horiz direction
-if (phy_position_xprevious <= phy_position_x) {
+if ((direction > 270  && direction <= 360) || (direction <= 90 && direction >= 0)) {
 	moveRight = 1;
 	moveLeft = 0;
 }

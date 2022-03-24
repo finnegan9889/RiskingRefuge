@@ -34,6 +34,7 @@
     {"id":{"name":"spr_player_idle_down_strip04","path":"sprites/spr_player_idle_down_strip04/spr_player_idle_down_strip04.yy",},"order":0,},
     {"id":{"name":"obj_boundary","path":"objects/obj_boundary/obj_boundary.yy",},"order":0,},
     {"id":{"name":"objSoldier","path":"objects/objSoldier/objSoldier.yy",},"order":0,},
+    {"id":{"name":"print","path":"scripts/print/print.yy",},"order":0,},
     {"id":{"name":"font_textbox","path":"fonts/font_textbox/font_textbox.yy",},"order":0,},
     {"id":{"name":"sprSoldierLeftShoot","path":"sprites/sprSoldierLeftShoot/sprSoldierLeftShoot.yy",},"order":6,},
     {"id":{"name":"EntryHover","path":"sprites/EntryHover/EntryHover.yy",},"order":14,},
