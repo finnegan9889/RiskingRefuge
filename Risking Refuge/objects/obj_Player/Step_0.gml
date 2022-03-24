@@ -1,4 +1,5 @@
 /// @description Player Movement
+// Code from https://www.youtube.com/watch?v=GrwCeAUcW78&list=PLhIbBGhnxj5KOV5iR9G7q9cTFONS909j3
 
 // Check keys for movement
 moveRight = keyboard_check(vk_right);
@@ -22,8 +23,12 @@ if(vx == 0 && vy == 0){
 
 // Moving
 if(vx != 0 || vy != 0){
-	x += vx;
-	y += vy;
+	if !collision_point(x+vx, y, obj_par_environment, true, true){
+		x += vx;
+	}
+	if !collision_point(x, y+vy, obj_par_environment, true, true){
+		y += vy;
+	}
 	
 	// Change Sprite
 	if(vx > 0){
