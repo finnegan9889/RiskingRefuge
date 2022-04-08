@@ -27,8 +27,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "Soldiers",
+    "path": "folders/Objects/Soldiers.yy",
   },
   "resourceVersion": "1.0",
   "name": "objSoldier",

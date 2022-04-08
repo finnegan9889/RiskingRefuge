@@ -7,14 +7,14 @@
   "edgeFiltering": false,
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
-  "bbox_left": 2,
-  "bbox_right": 44,
+  "bbox_left": 0,
+  "bbox_right": 45,
   "bbox_top": 1,
   "bbox_bottom": 40,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 47,
+  "width": 46,
   "height": 42,
   "textureGroupId": {
     "name": "Default",
@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"58802240-8a4b-4fe7-8888-6d9346ff1745","path":"sprites/sprSoldierSearch/sprSoldierSearch.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"58802240-8a4b-4fe7-8888-6d9346ff1745","path":"sprites/sprSoldierSearch/sprSoldierSearch.yy",},"LayerId":{"name":"6de38c33-6c11-4092-b68a-46789630afa1","path":"sprites/sprSoldierSearch/sprSoldierSearch.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sprSoldierSearch","path":"sprites/sprSoldierSearch/sprSoldierSearch.yy",},"resourceVersion":"1.0","name":"58802240-8a4b-4fe7-8888-6d9346ff1745","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"614d232d-3644-44aa-bcf4-6eeccda993da","path":"sprites/sprSoldierSearch/sprSoldierSearch.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"614d232d-3644-44aa-bcf4-6eeccda993da","path":"sprites/sprSoldierSearch/sprSoldierSearch.yy",},"LayerId":{"name":"6de38c33-6c11-4092-b68a-46789630afa1","path":"sprites/sprSoldierSearch/sprSoldierSearch.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sprSoldierSearch","path":"sprites/sprSoldierSearch/sprSoldierSearch.yy",},"resourceVersion":"1.0","name":"614d232d-3644-44aa-bcf4-6eeccda993da","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"65f55081-3193-41e7-acdf-298ac77ca794","path":"sprites/sprSoldierSearch/sprSoldierSearch.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"65f55081-3193-41e7-acdf-298ac77ca794","path":"sprites/sprSoldierSearch/sprSoldierSearch.yy",},"LayerId":{"name":"57d5e5aa-c506-4f53-a83d-0fd423c8509b","path":"sprites/sprSoldierSearch/sprSoldierSearch.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sprSoldierSearch","path":"sprites/sprSoldierSearch/sprSoldierSearch.yy",},"resourceVersion":"1.0","name":"65f55081-3193-41e7-acdf-298ac77ca794","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"e9543153-0a22-487e-9b7e-45870a3c7f3a","path":"sprites/sprSoldierSearch/sprSoldierSearch.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"e9543153-0a22-487e-9b7e-45870a3c7f3a","path":"sprites/sprSoldierSearch/sprSoldierSearch.yy",},"LayerId":{"name":"57d5e5aa-c506-4f53-a83d-0fd423c8509b","path":"sprites/sprSoldierSearch/sprSoldierSearch.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sprSoldierSearch","path":"sprites/sprSoldierSearch/sprSoldierSearch.yy",},"resourceVersion":"1.0","name":"e9543153-0a22-487e-9b7e-45870a3c7f3a","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"sprSoldierSearch","path":"sprites/sprSoldierSearch/sprSoldierSearch.yy",},
@@ -44,8 +44,8 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"5236ab97-f66c-40f1-9102-e73bddd14c91","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"58802240-8a4b-4fe7-8888-6d9346ff1745","path":"sprites/sprSoldierSearch/sprSoldierSearch.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-            {"id":"74b6c09b-95d1-4e30-8738-eb7063a06aef","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"614d232d-3644-44aa-bcf4-6eeccda993da","path":"sprites/sprSoldierSearch/sprSoldierSearch.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"f7c9c2e9-b4ec-4630-867f-f7e4f133d7f0","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"65f55081-3193-41e7-acdf-298ac77ca794","path":"sprites/sprSoldierSearch/sprSoldierSearch.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"1664e1fb-983d-4f48-96c4-048efeca54c2","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"e9543153-0a22-487e-9b7e-45870a3c7f3a","path":"sprites/sprSoldierSearch/sprSoldierSearch.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -69,7 +69,7 @@
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"6de38c33-6c11-4092-b68a-46789630afa1","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"57d5e5aa-c506-4f53-a83d-0fd423c8509b","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {

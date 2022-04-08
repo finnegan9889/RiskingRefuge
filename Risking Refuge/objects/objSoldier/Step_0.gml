@@ -28,8 +28,8 @@ if(vx == 0 && vy == 0){
 
 // Moving
 if(vx != 0 || vy != 0){
-	x += vx;
-	y += vy;
+	//x += vx;
+	//y += vy;
 	
 	// Change Sprite
 	
@@ -40,7 +40,7 @@ if(vx != 0 || vy != 0){
 			sprite_index = sprSoldierRightMarch;
 			walkSpeed = 2;
 		}
-		else {
+		else if (!shooting) {
 			sprite_index = sprSoldierRightRun;
 			walkSpeed = 4;
 		}
@@ -53,7 +53,7 @@ if(vx != 0 || vy != 0){
 			sprite_index = sprSoldierLeftMarch;
 			walkSpeed = 2;
 		}
-		else {
+		else if (!shooting) {
 			sprite_index = sprSoldierLeftRun;
 			walkSpeed = 4;
 		}
