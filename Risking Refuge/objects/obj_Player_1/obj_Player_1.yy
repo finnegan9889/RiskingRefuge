@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_player_idle_down_strip04_3",
-    "path": "sprites/spr_player_idle_down_strip04_3/spr_player_idle_down_strip04_3.yy",
+    "name": "sprDownIdle",
+    "path": "sprites/sprDownIdle/sprDownIdle.yy",
   },
   "solid": false,
   "visible": true,

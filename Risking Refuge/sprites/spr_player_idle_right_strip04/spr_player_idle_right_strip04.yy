@@ -81,8 +81,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Player",
-    "path": "folders/Sprites/Player.yy",
+    "name": "LittleGirl",
+    "path": "folders/Sprites/LittleGirl.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_player_idle_right_strip04",

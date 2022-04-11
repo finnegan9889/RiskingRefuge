@@ -2,7 +2,7 @@
 
 
 // Variables
-walkSpeed = 4;
+walkSpeed = 2;
 vx = 0;
 vy = 0;
 dir = 3;

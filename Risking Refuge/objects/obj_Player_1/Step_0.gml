@@ -13,10 +13,10 @@ vy = ((moveDown - moveUp) * walkSpeed);
 // Idle
 if(vx == 0 && vy == 0){
 	switch dir{
-		case 0: sprite_index = spr_player_idle_right_strip04; break;
-		case 1: sprite_index = spr_player_idle_up_strip04; break;
-		case 2: sprite_index = spr_player_idle_left_strip04; break;
-		case 3: sprite_index = spr_player_idle_down_strip04; break;
+		case 0: sprite_index = sprRightIdle; break;
+		case 1: sprite_index = sprUpIdle; break;
+		case 2: sprite_index = sprLeftIdle; break;
+		case 3: sprite_index = sprDownIdle; break;
 	}
 }
 
@@ -31,19 +31,19 @@ if(vx != 0 || vy != 0){
 	
 	// Change Sprite
 	if(vx > 0){
-		sprite_index = spr_player_walk_right_strip04;
+		sprite_index = sprWalkRight;
 		dir = 0;
 	}
 	if(vx < 0){
-		sprite_index = spr_player_walk_left_strip04;
+		sprite_index = sprWalkLeft;
 		dir = 2;
 	}
 	if(vy > 0){
-		sprite_index = spr_player_walk_down_strip04;
+		sprite_index = sprWalkDown;
 		dir = 3;
 	}
 	if(vy < 0){
-		sprite_index = spr_player_walk_up_strip04;
+		sprite_index = sprWalkUp;
 		dir = 1;
 	}	
 }
