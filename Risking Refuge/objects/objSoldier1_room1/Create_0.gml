@@ -10,11 +10,5 @@ if (!detectedPlayer) {
 */
 
 path_start(pSoldierPatrol1, 1, path_action_continue, true);
+onPath = true;
 
-//If player sensed, pause path
-// if (sensing condition) { path_speed = 0; }
-
-if (detectedPlayer) {
-	path_end();
-	//Parent create function should specify tracking and attacking behaviors
-}

@@ -69,8 +69,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Action Assets",
+    "path": "folders/Sprites/Action Assets.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_block",

@@ -1,12 +1,13 @@
-/// @description same function but 
+/// @description Ends path when detection of player
+
+// Inherit the parent event
 event_inherited();
 
-// compare prev and curr x positions to determine horiz direction
-if ((direction > 270  && direction <= 360) || (direction <= 90 && direction >= 0)) {
-	moveRight = 1;
-	moveLeft = 0;
-}
-else {
-	moveRight = 0;
-	moveLeft = 1;
+//If player sensed, pause path
+// if (sensing condition) { path_speed = 0; }
+
+if (detectedPlayer) {
+	path_end();
+	onPath = false;
+	//Parent create function should specify tracking and attacking behaviors
 }
