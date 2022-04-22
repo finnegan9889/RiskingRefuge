@@ -29,7 +29,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Allocate Buttons",
-    "path": "folders/Objects/Allocate Buttons.yy",
+    "path": "folders/Objects/Map Objects/Allocate Buttons.yy",
   },
   "resourceVersion": "1.0",
   "name": "refugeeButton",

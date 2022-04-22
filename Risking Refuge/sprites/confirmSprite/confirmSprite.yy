@@ -69,8 +69,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Map Assets",
+    "path": "folders/Sprites/Map Assets.yy",
   },
   "resourceVersion": "1.0",
   "name": "confirmSprite",

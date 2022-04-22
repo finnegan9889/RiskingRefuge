@@ -29,7 +29,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Level Entries",
-    "path": "folders/Objects/Level Entries.yy",
+    "path": "folders/Objects/Map Objects/Level Entries.yy",
   },
   "resourceVersion": "1.0",
   "name": "Entry3",

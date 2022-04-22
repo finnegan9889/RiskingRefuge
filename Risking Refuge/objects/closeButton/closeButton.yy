@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "EntryMarker",
-    "path": "sprites/EntryMarker/EntryMarker.yy",
+    "name": "closeX",
+    "path": "sprites/closeX/closeX.yy",
   },
   "solid": false,
   "visible": true,
@@ -21,18 +21,16 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":7,"eventType":6,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":10,"eventType":6,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":11,"eventType":6,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":6,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Level Entries",
-    "path": "folders/Objects/Map Objects/Level Entries.yy",
+    "name": "Instruction Button",
+    "path": "folders/Objects/Map Objects/Instruction Button.yy",
   },
   "resourceVersion": "1.0",
-  "name": "Entry4",
+  "name": "closeButton",
   "tags": [],
   "resourceType": "GMObject",
 }

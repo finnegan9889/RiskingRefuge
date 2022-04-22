@@ -8,14 +8,14 @@
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
   "bbox_left": 0,
-  "bbox_right": 63,
+  "bbox_right": 509,
   "bbox_top": 0,
-  "bbox_bottom": 63,
+  "bbox_bottom": 479,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 64,
-  "height": 64,
+  "width": 510,
+  "height": 480,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"26e5b21b-3c43-461e-b817-9356d684b1cc","path":"sprites/EntryHover/EntryHover.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"26e5b21b-3c43-461e-b817-9356d684b1cc","path":"sprites/EntryHover/EntryHover.yy",},"LayerId":{"name":"75700d7f-4914-4add-9422-40a78eda7940","path":"sprites/EntryHover/EntryHover.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"EntryHover","path":"sprites/EntryHover/EntryHover.yy",},"resourceVersion":"1.0","name":"26e5b21b-3c43-461e-b817-9356d684b1cc","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"505f1c3b-ea43-42d4-9cfa-1e5c4facd08b","path":"sprites/instructionBG/instructionBG.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"505f1c3b-ea43-42d4-9cfa-1e5c4facd08b","path":"sprites/instructionBG/instructionBG.yy",},"LayerId":{"name":"896817ee-959e-4b80-8349-4eff86a6f544","path":"sprites/instructionBG/instructionBG.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"instructionBG","path":"sprites/instructionBG/instructionBG.yy",},"resourceVersion":"1.0","name":"505f1c3b-ea43-42d4-9cfa-1e5c4facd08b","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"EntryHover","path":"sprites/EntryHover/EntryHover.yy",},
+    "spriteId": {"name":"instructionBG","path":"sprites/instructionBG/instructionBG.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"f067d02b-6186-4811-8090-ffc208eeba79","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"26e5b21b-3c43-461e-b817-9356d684b1cc","path":"sprites/EntryHover/EntryHover.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"3eadc19b-e90e-43ae-bcbe-6f412f0312a4","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"505f1c3b-ea43-42d4-9cfa-1e5c4facd08b","path":"sprites/instructionBG/instructionBG.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -58,22 +58,22 @@
     "yorigin": 0,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"EntryHover","path":"sprites/EntryHover/EntryHover.yy",},
+    "parent": {"name":"instructionBG","path":"sprites/instructionBG/instructionBG.yy",},
     "resourceVersion": "1.4",
-    "name": "EntryHover",
+    "name": "instructionBG",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"75700d7f-4914-4add-9422-40a78eda7940","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"896817ee-959e-4b80-8349-4eff86a6f544","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Map Assets",
-    "path": "folders/Sprites/Map Assets.yy",
+    "name": "HudIcons",
+    "path": "folders/Sprites/HudIcons.yy",
   },
   "resourceVersion": "1.0",
-  "name": "EntryHover",
+  "name": "instructionBG",
   "tags": [],
   "resourceType": "GMSprite",
 }
