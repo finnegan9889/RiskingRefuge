@@ -1,3 +1,3 @@
 /// @description Start Game
-// Enters map phase
-room_goto_next();
+// Enters intro
+room_goto(intro1);
