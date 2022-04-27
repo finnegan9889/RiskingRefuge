@@ -1,5 +1,7 @@
 /// @description Ends path when detection of player
 
+if(global.pause) exit;
+
 // Inherit the parent event
 event_inherited();
 

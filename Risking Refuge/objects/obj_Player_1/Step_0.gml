@@ -1,5 +1,7 @@
 /// @description Player Movement
 
+if(global.pause) exit;
+
 // Check keys for movement
 moveRight = keyboard_check(vk_right);
 moveLeft = keyboard_check(vk_left);

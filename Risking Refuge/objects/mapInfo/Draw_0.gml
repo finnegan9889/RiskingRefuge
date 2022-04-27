@@ -6,7 +6,7 @@ infoStr = "- You can find your current resources in the top-left window.\n- Clic
 sprite_index = infoSprite;
 draw_sprite(infoSprite, 0, room_width - 64, 6);
 //draw_self();
-if(state == 1){ //show info window	
+if(self.state == 1){ //show info window	
 	Facility.state = 0; //close facility popup if open
 	
 	draw_set_halign(fa_left);

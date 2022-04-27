@@ -1,5 +1,7 @@
 /// @description generic sensing, and animation code for a patrolling soldier
 
+if(global.pause) exit;
+
 // movement loop, analyzes movement relative to player when detected
 // when patrolling, child object specifies nature of movement and sprite relationship
 

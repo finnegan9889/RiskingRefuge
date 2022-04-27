@@ -6,3 +6,5 @@ global.totalRefugees = 135;
 global.shelterSups = 60;
 
 global.workers = 3;
+
+global.pause = 0;
