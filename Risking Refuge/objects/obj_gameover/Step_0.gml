@@ -11,7 +11,7 @@ if (_click&& _script>= 0) {
 
 
 // checking win/lose condition, could be changed
-if mouse_check_button_pressed(mb_left){
+if _click{
 	// no workers
 	if (global.workers == 0) {
 		room_goto(game_Lose);
