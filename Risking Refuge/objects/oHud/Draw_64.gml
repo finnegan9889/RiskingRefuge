@@ -6,13 +6,14 @@ draw_sprite(foodIcon, 0, 52, 50);
 draw_sprite(medIcon, 0, 50, 105);
 draw_sprite(tentIcon, 0, 50, 150);
 
-draw_line_width(48, 193, 180, 193, 2);
+draw_line_width_color(48, 193, 180, 193, 2, c_black, c_black);
 
 draw_sprite(refugeeIcon, 0, 50, 200);
 draw_sprite(livesIcon, 0, 52, 245);
 
 //text
 draw_set_halign(fa_left);
+draw_set_valign(fa_top);
 draw_set_font(MapHudFont);
 draw_set_color(c_black);
 draw_text_transformed(90, 48, global.foodSups, 1, 1, 0);

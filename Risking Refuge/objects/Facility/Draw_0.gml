@@ -9,6 +9,7 @@ if(state == 1){  //show resource info
 	draw_sprite(refugeeIcon, 0, self.x + 67, self.y + 78);
 
 	draw_set_halign(fa_left);
+	draw_set_valign(fa_top);
 	draw_set_font(MapHudSmall);
 	draw_set_color(c_black);
 	draw_text_transformed(self.x + 102, self.y - 36, string(global.foodSups) + "/" +

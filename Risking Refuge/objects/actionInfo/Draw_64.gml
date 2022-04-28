@@ -3,6 +3,7 @@ draw_self();
 
 if(state == 1){ //show info window
 	draw_set_halign(fa_left);
+	draw_set_valign(fa_top);
 	draw_set_font(MapHudSmall);
 	draw_set_color(c_black);
 	draw_sprite(instructionBG, 0, window_get_width()/2 - 255, window_get_height()/2 - 240);

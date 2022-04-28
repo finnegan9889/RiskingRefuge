@@ -10,6 +10,7 @@ if(self.state == 1){ //show info window
 	Facility.state = 0; //close facility popup if open
 	
 	draw_set_halign(fa_left);
+	draw_set_valign(fa_top);
 	draw_set_font(MapHudSmall);
 	draw_set_color(c_black);
 	draw_sprite(instructionBG, 0, room_width/2 - 255, room_height/2 - 240);
